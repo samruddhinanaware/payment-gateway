@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <title> TASK 3</title>
+	   <meta charset="utf-8">
+	   <style>
+	   	img {
+	  	display:block;
+	  	margin-left:auto;
+	  	margin-right:auto;
+	    }
+        p{text-align:center;
+	      font-size:25px;
+	    }
+	    .center {border: solid 1pt black;
+		    font-size: 20px;
+            margin-left: auto;
+            margin-right: auto;
+               }
+        .center td {
+           height: 50px;
+           vertical-align:center;
+             }
+        form{
+           font-family:Georgia, serif;
+           font-size:25px;
+           width:50%;
+           margin: auto;
+	     }
+	    
+        table,td,th{
+            border:1px solid black;
+            border-collapse: collapse;
+            font-size: 20px;
+            font-family: Georgia, serif;
+        }
+        th,td{
+            padding: 5px;
+            text-align: left;
+        }
+
+        #donate tr:nth-child(even){
+        background-color: #ccffff;
+        }
+        a:link{
+	   		text-decoration:none;
+	   		color:blue;
+	   		font-family: Georgia, serif;
+	   		}
+	    a:visited{
+	    color:purple;
+	    font-family: Georgia, serif;
+
+	    }
+	    a:hover{
+	   	text-decoration: underline;
+	   	font-family: Georgia, serif;
+
+	   	}
+	    a:active{
+	   	background-color:white; 
+	   	font-family: Georgia, serif;
+	   	}
+       
+	    </style>
+         
+        
+</head>
+        <body style="background-color: powderblue;">
+	<h1 style="font-family: Georgia, serif"><center>SUPPORT COVID-19 RELIEF SERVICE</center></h1>
+
+		<img src="support.jpg" alt="photo" style="width:30%;" />
+
+	  <p style="font-family: Georgia, serif;">
+		As the COVID-19 crisis continues to loom over us, The Government of karnataka has taken a strict combat measure by directing a lockdown of the entire state. At this great hour of need, Our Foundation, in close coordination with State Governments & District Administration, has stepped in to provide relief by providing food to thousands of people across the country.
+		By adhering to all safety and hygiene measures, our foundation has begun its relief service by providing meal or packed grocery kits to the marginalised and low-income segment of the society comprising of daily wage workers, migrant labourers, construction site workers, and needy people at old age homes and night shelters. Presently, the Foundation and its Association Foundations are providing food relief in many different districts.
+	  </p>
+	  
+	<h2 style="font-family: Georgia, serif"><center>Here’s a summary of our current on-ground efforts to fight the situation.</center></h2>
+	 <table class="center" style="font-family: Georgia, serif" "width:200%">
+ 		<tr>
+ 			<th>DISTRICTS</th>
+ 			<th>CUMULATIVE NUMBER OF MEALS & GROCERY KITS (AS ON 30 Apr 2021)</th>
+ 		</tr>
+ 		<tr>
+ 			<td>Bagalkot</td>
+ 			<td> 2030 meals and 987 kits</td>
+ 		</tr>
+ 		<tr>
+ 			<td>Ballari (Bellary)</td>
+ 			<td> 3856 meals and 1290 kits</td>
+ 		</tr>
+ 		<tr>
+ 			<td>Hubli </td>
+ 			<td> 4550 meals and 609 kits</td>
+ 		</tr>
+ 		<tr>
+ 			<td>Vijayapura</td>
+ 			<td> 3090 meals and 800 kits </td>
+ 		</tr>
+     </table>
+     </br>
+     <form action="ind.js" method="post">
+        <fieldset>
+        <legend style="font-weight:bold; ">Kindly fill your details</legend>
+         <label>Name:</label>
+         <input type="text" pattern="[A-Z]{3,25}" placeholder="Enter your name" name="Name" /></br>
+         <label>Phone no:</label>
+         <input type="tel" pattern="[0-9]{10}" placeholder="Enter your phone number"name="phoneno" /></br>
+         <label>Email-id:</label>
+         <input type="email" placeholder="Enter your email" name="Email-id" /></br> 
+         <label>Address:</label>
+         <input type="text" placeholder="Enter your address"name="Address" /></br> 
+         <label>Country: </label>       
+         <select name="where" >
+
+         <option>India</option>
+         <option>Foreign</option>
+         </select></br>
+      <a href="https://pages.razorpay.com/pl_GFF2rkynv03jik/view" class="btntwo">Donate Now</a>
+         
+       </fieldset>
+       </form>
+       
+      
+      <h2 style="font-family: Georgia, serif" align="center">HOW YOUR DONATIONS ARE UTLIZED:</h2>
+      </br>
+    <img src="donate.jpg" alt="photo" style="width:20%;" align="center"/> </br>     
+    <table class="center" id="donate" style="width:100 %" >
+    <tr>
+        <th>FOOD BASKET</th>
+        <th> COVID CARE KIT</th>
+    </tr>
+    <tr>
+        <td>Rice</td>
+        <td>Pulse oximeter</td>
+     </tr>
+     <tr>
+         <td>Wheat</td>
+         <td>Thermometer</td>
+     </tr>
+     <tr>
+        <td>Moong Dal</td>
+        <td>Spirometer</td>
+     </tr>
+     <tr>
+        <td>Tur Dal/Black gram Salt</td>
+        <td>Vitamins & Supplements</td>
+     </tr>
+     <tr>
+        <td>Sugar </td> 
+        <td>Steam inhalation machine</td>
+    </tr>
+     <tr>
+      <td>Tea</td>
+      <td>Sanitizers and masks</td>
+     </tr>
+   </table></br>
+     <img src="thanks.jpg" alt="photo" style="width:20%;" align="center"  /> 
+      <p style="font-family: Georgia, serif;">Your small contribution will go a long way in providing life-saving care to those who cannot access it and will help reduce the risk of infection, disease and death.</p></br>
+      <h2 style="font-family: Georgia, serif" align="center">LET'S TAKE A MOMENT AND THANK THE FRONTLINERS</h2>
+      <img src="frontliners.jpg" alt="photo" style="width:30%;" align="center"  />
+      <p>Thank you for all that you have been doing.You are sacrificing so much to save people's lives and to maintain normalcy.Because of your efforts,I can trust everyone around us is safe.Thank you HEROES!!"</p> 
+     <h3 style="font-family: Georgia, serif">FOR MORE INFORMATION ABOUT COVID: </h3>
+       <ol>
+     	<li><a href="https://www.mohfw.gov.in/pdf/COVID19ClinicalManagementProtocolAlgorithmAdults19thMay2021.pdf" >Clincal guidance for management of adult covid -19 patients </a></li>
+		<li><a href="https://www.mohfw.gov.in/pdf/RevisedGuidelineshomeisolation4.pdf">Revised guidelines for home isolation of mild/asymptomatic covid-19 cases</a></li>
+		<li><a href="https://www.mohfw.gov.in/pdf/SOPforCOVID19VaccinationofPersonswithoutPrescribedIdentityCards.pdf">COVID-19	Vaccination	of	Persons	without	prescribed Identity Cards through CoWIN</a></li>
+	   </ol>
+       
+    
+	 </body>
+	 </html>
